@@ -1,3 +1,3 @@
-n=10
-for i in range(1,9):
-    print(n,'x','i','=',n*i)
+n=int(input('enter number'))
+for i in range(1,11):
+    print(str(n)+' * '+str(i)+' = '+str(n*i))
